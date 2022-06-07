@@ -1,0 +1,26 @@
+.chat-avatar {
+  position:relative;
+  display:inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.chat-avatar__image {
+  width:30px;
+  height:30px;
+  object-fit:cover;
+  border-radius:100%;
+
+}
+.chat-avatar__status {
+  width:10px;
+  height:10px;
+  border-radius:100%;
+}
+
+.friend:hover {
+  background-color: rgb(0, 0, 0, 0.08);
+}
+.friend {
+    cursor: pointer;
+}

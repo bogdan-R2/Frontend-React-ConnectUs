@@ -1,0 +1,22 @@
+.c-avatar {
+    position:relative;
+    display:inline-block;
+  }
+  .avatar_image {
+    width:50px;
+    height:50px;
+    object-fit:cover;
+    border-radius:100%;
+  }
+
+  .accept-icon {
+    color: 'red'
+  }
+
+  .accept-icon :hover {
+      color: #10804f;
+  }
+
+  .decline-icon :hover {
+    color: red;
+  }

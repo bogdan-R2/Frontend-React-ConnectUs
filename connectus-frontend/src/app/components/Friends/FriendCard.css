@@ -1,0 +1,21 @@
+.c-avatar {
+  position:relative;
+  display:inline-block;
+}
+.c-avatar__image {
+  width:75px;
+  height:75px;
+  object-fit:cover;
+  border-radius:100%;
+  cursor: pointer;
+
+}
+.c-avatar__status {
+  width:25px;
+  height:25px;
+  border:2px solid white;
+  position:absolute;
+  bottom:2%;
+  right:2%;
+  border-radius:100%;
+}
